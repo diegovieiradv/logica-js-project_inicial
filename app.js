@@ -1,4 +1,4 @@
-alert("Seja bem-vindo ao nosso jogo do número secreto!");
+/*alert("Seja bem-vindo ao nosso jogo do número secreto!");
 
 let numeroSecreto = 10;
 let tentativas = 1;
@@ -34,3 +34,14 @@ alert(
     `Você acertou o número secreto ${numeroSecreto} com ${tentativas} tentativa!`
   );
 }*/
+
+let titulo = document.querySelector("h1");
+titulo.innerHTML = "Jogo do Número Secreto";
+
+function chute() {
+  console.log("Você clicou no botão chute!");
+}
+
+function amoJS() {
+  alert("Eu amo JavaScript!");
+}

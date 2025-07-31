@@ -1,12 +1,16 @@
-/*alert("Seja bem-vindo ao nosso jogo do número secreto!");
+/*
+alert("Seja bem-vindo ao nosso jogo do número secreto!");
 
 let numeroSecreto = 10;
+alert("Seja bem-vindo ao nosso jogo do número secreto!");
+let numeroMaximo = 1000;
+let numeroSecreto = parseInt(Math.random() * numeroMaximo + 1);
 let tentativas = 1;
 
 let chute;
 
 while (chute != numeroSecreto) {
-  chute = Number(prompt("Digite um número entre 0 e 10"));
+  chute = Number(prompt(`Digite um número entre 1 e ${numeroMaximo}`));
 
   if (chute == numeroSecreto) {
     break;
@@ -21,7 +25,7 @@ while (chute != numeroSecreto) {
 }
 let palavraTentativa = tentativas > 1 ? "tentativas" : "tentativa";
 alert(
-  `Você acertou o número secreto ${numeroSecreto} com ${tentativas} ${palavraTentativa}.`
+  `Você acertou o número secreto ${numeroSecreto} com ${tentativas} ${palavraTentativa}.` 
 );
 
 // e a mesma coisa que esse codigo abaixo
@@ -33,7 +37,7 @@ alert(
   alert(
     `Você acertou o número secreto ${numeroSecreto} com ${tentativas} tentativa!`
   );
-}*/
+}
 
 let titulo = document.querySelector("h1");
 titulo.innerHTML = "Jogo do Número Secreto";
@@ -44,4 +48,4 @@ function chute() {
 
 function amoJS() {
   alert("Eu amo JavaScript!");
-}
+}   */
